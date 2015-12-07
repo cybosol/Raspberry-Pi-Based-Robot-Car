@@ -9,25 +9,25 @@ GPIO.setup(16, GPIO.OUT)
 
 #forward
 def forward():
-GPIO.output(11,True)
-GPIO.output(12,False)
-GPIO.output(15,False)
-GPIO.output(16,True)
-time.sleep(80)
+  GPIO.output(11,True)
+  GPIO.output(12,False)
+  GPIO.output(15,False)
+  GPIO.output(16,True)
+  time.sleep(80)
 
 def turn_right():
-GPIO.output(11,True)
-GPIO.output(12,False)
-GPIO.output(15,True)
-GPIO.output(16,False)
-time.sleep(20)
+  GPIO.output(11,True)
+  GPIO.output(12,False)
+  GPIO.output(15,True)
+  GPIO.output(16,False)
+  time.sleep(20)
 
 def turn_left():
-GPIO.output(11,False)
-GPIO.output(12,True)
-GPIO.output(15,False)
-GPIO.output(16,True)
-time.sleep(20)
+  GPIO.output(11,False)
+  GPIO.output(12,True)
+  GPIO.output(15,False)
+  GPIO.output(16,True)
+  time.sleep(20)
 
 
 forward()
